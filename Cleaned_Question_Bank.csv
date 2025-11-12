@@ -1,0 +1,279 @@
+Question,Category,Answer
+Which key refers to another table's key?,DBMS,Foreign
+Which algorithm is used for classification?,AI&ML,SVM
+What is the full form of CNN?,AI&ML,ConvolutionalNeuralNetwork
+What does AI stand for?,AI&ML,ArtificialIntelligence
+Which ML type uses labeled data?,AI&ML,Supervised
+Which data structure is used for BFS?,DSA,Queue
+What data structure uses FIFO order?,DSA,Queue
+What language is used to query databases?,DBMS,SQL
+Which metric measures model accuracy?,AI&ML,Accuracy
+Which operation combines two tables?,DBMS,JOIN
+Which ML type uses unlabeled data?,AI&ML,Unsupervised
+Which algorithm is used to find shortest path?,DSA,Dijkstra
+What is the full form of RNN?,AI&ML,RecurrentNeuralNetwork
+Which key uniquely identifies a record?,DBMS,Primary
+Which clause filters rows in SQL?,DBMS,WHERE
+What does DBMS stand for?,DBMS,DatabaseManagementSystem
+What is the best case of linear search?,DSA,O(1)
+Which activation function is used in output layer for binary classification?,AI&ML,Sigmoid
+Which traversal uses recursion naturally?,DSA,DFS
+Which sorting algorithm is the fastest on average?,DSA,QuickSort
+Which SQL command adds data?,DBMS,INSERT
+What is the full form of DFS?,DSA,DepthFirstSearch
+Which command removes all rows from a table?,DBMS,DELETE
+Which data structure is non-linear?,DSA,Tree
+Which function is used to minimize error?,AI&ML,Loss
+Which data structure uses LIFO order?,DSA,Stack
+What is the time complexity of binary search?,DSA,O(logn)
+Which command creates a new table?,DBMS,CREATE
+Which SQL keyword is used to sort data?,DBMS,ORDERBY
+What data structure uses hierarchical organization?,DSA,Tree
+What is the parent of all nodes in a tree called?,DSA,Root
+What is a leaf node in a tree?,DSA,Node
+Which data structure is used in recursion?,DSA,Stack
+Which traversal visits root before subtrees?,DSA,Preorder
+Which traversal visits left subtree first?,DSA,Inorder
+Which traversal visits right subtree last?,DSA,Postorder
+What is the degree of a node?,DSA,Children
+Which data structure is used for undo operation?,DSA,Stack
+Which searching algorithm divides array in half?,DSA,BinarySearch
+Which algorithm sorts using partitioning?,DSA,QuickSort
+Which algorithm sorts by repeatedly swapping adjacent elements?,DSA,BubbleSort
+Which algorithm sorts by selecting the smallest element?,DSA,SelectionSort
+Which algorithm sorts by inserting elements in correct position?,DSA,InsertionSort
+What is the time complexity of merge sort?,DSA,O(nlogn)
+What type of graph has no cycles?,DSA,Acyclic
+Which traversal is used for level order in a tree?,DSA,BFS
+What is another name for binary search tree?,DSA,BST
+What is the height of an empty tree?,DSA,-1
+Which algorithm is used in minimum spanning tree?,DSA,Kruskal
+Which data structure supports dynamic memory allocation?,DSA,LinkedList
+Which data structure is best for implementing LRU cache?,DSA,Queue
+What type of list allows traversal in both directions?,DSA,DoublyLinkedList
+What type of queue allows insertion and deletion from both ends?,DSA,Deque
+What is the maximum number of children in binary tree?,DSA,Two
+What is the worst case of binary search?,DSA,O(logn)
+Which notation represents upper bound?,DSA,BigO
+Which notation represents average case?,DSA,Theta
+Which notation represents lower bound?,DSA,Omega
+What is the term for unvisited nodes in graph traversal?,DSA,Unexplored
+What is the space complexity of recursion?,DSA,O(n)
+What is the data structure used in heap sort?,DSA,Heap
+Which heap type gives minimum element at root?,DSA,MinHeap
+Which heap type gives maximum element at root?,DSA,MaxHeap
+Which operation removes top element from stack?,DSA,Pop
+Which operation adds element to stack?,DSA,Push
+Which operation adds element to queue?,DSA,Enqueue
+Which operation removes element from queue?,DSA,Dequeue
+What data structure is used in expression evaluation?,DSA,Stack
+What is used to detect cycles in a graph?,DSA,DFS
+What is the number of edges in a tree with n nodes?,DSA,n-1
+What is a path that starts and ends at same vertex?,DSA,Cycle
+What is the degree of a vertex in graph?,DSA,Edges
+What is used to find connected components in a graph?,DSA,DFS
+What kind of search explores all paths simultaneously?,DSA,BFS
+Which algorithm is used to find shortest path in weighted graph?,DSA,Dijkstra
+What is the type of traversal that uses recursion stack?,DSA,DFS
+Which traversal of BST gives sorted order?,DSA,Inorder
+What is used to represent sparse matrix efficiently?,DSA,LinkedList
+What is used to detect negative cycle in graph?,DSA,BellmanFord
+What is the amortized time complexity of dynamic array resizing?,DSA,O(1)
+Which tree balances itself after insertions and deletions?,DSA,AVL
+What is the property maintained in a Red-Black Tree?,DSA,Balance
+Which algorithm is used to find articulation points in graph?,DSA,Tarjan
+Which data structure is used in topological sorting?,DSA,Stack
+Which traversal method is used for expression tree evaluation?,DSA,Postorder
+Which algorithm finds strongly connected components?,DSA,Kosaraju
+What is the best sorting algorithm for nearly sorted data?,DSA,InsertionSort
+Which algorithm detects negative weight cycle?,DSA,BellmanFord
+Which data structure implements priority queue efficiently?,DSA,Heap
+Which algorithm is used for maximum flow in a network?,DSA,FordFulkerson
+Which traversal can be used to serialize a tree?,DSA,Preorder
+Which algorithm is used for pattern matching?,DSA,KMP
+Which technique is used to handle collisions in hashing?,DSA,Chaining
+Which hashing technique uses probing sequence?,DSA,OpenAddressing
+What is the maximum height of a red-black tree?,DSA,2log(n+1)
+Which algorithm divides problems into subproblems?,DSA,DivideAndConquer
+Which algorithm is used for transitive closure?,DSA,FloydWarshall
+Which algorithm is used for finding MST besides Kruskal?,DSA,Prim
+Which tree maintains heap and BST properties?,DSA,Treap
+Which tree is used in range queries?,DSA,SegmentTree
+What is the auxiliary space of merge sort?,DSA,O(n)
+Which algorithm is used to find bridges in graph?,DSA,Tarjan
+Which heap is used for Dijkstra’s algorithm?,DSA,MinHeap
+Which algorithm solves longest increasing subsequence?,DSA,DP
+Which algorithm is used for matrix chain multiplication?,DSA,DP
+Which data structure is used in Huffman coding?,DSA,Heap
+Which algorithm is used in Kruskal’s MST?,DSA,UnionFind
+Which tree supports logarithmic insertion and deletion?,DSA,AVL
+Which tree uses lazy propagation?,DSA,SegmentTree
+Which algorithm is used to detect cycle in directed graph?,DSA,DFS
+Which algorithm is used to find shortest path in unweighted graph?,DSA,BFS
+Which algorithm minimizes total edge weight?,DSA,Kruskal
+Which algorithm is used to sort strings efficiently?,DSA,RadixSort
+Which algorithm is used for dimensionality reduction?,AI&ML,PCA
+Which function measures entropy in decision tree?,AI&ML,InformationGain
+Which algorithm is used for anomaly detection?,AI&ML,IsolationForest
+What is the vanishing gradient problem associated with?,AI&ML,RNN
+Which optimizer uses momentum and adaptive learning rate?,AI&ML,Adam
+Which algorithm uses Bellman equation?,AI&ML,QLearning
+What is the function used to compute error in regression?,AI&ML,MSE
+Which kernel function is commonly used in SVM?,AI&ML,RBF
+What is the process of updating weights in neural networks called?,AI&ML,Backpropagation
+Which technique prevents overfitting by randomly dropping nodes?,AI&ML,Dropout
+What does the softmax function output?,AI&ML,Probability
+Which neural network is best for sequence data?,AI&ML,RNN
+Which technique is used for reducing multicollinearity?,AI&ML,Regularization
+Which algorithm is used for topic modeling?,AI&ML,LDA
+Which loss is used in binary classification?,AI&ML,BinaryCrossEntropy
+Which algorithm uses reinforcement signals?,AI&ML,ReinforcementLearning
+Which technique is used to normalize data?,AI&ML,Standardization
+Which neural network uses attention mechanism?,AI&ML,Transformer
+Which method is used for ensemble learning?,AI&ML,Bagging
+Which algorithm uses gradient descent?,AI&ML,LinearRegression
+Which algorithm is used for feature selection?,AI&ML,Lasso
+Which function is used to reduce overfitting?,AI&ML,Regularization
+Which layer extracts features in CNN?,AI&ML,Convolutional
+Which technique reduces dimensionality in NLP?,AI&ML,Word2Vec
+Which activation solves dying ReLU problem?,AI&ML,LeakyReLU
+Which model uses encoder-decoder structure?,AI&ML,Seq2Seq
+Which algorithm is used in gradient boosting?,AI&ML,XGBoost
+Which metric measures similarity between vectors?,AI&ML,Cosine
+Which algorithm is used to train GANs?,AI&ML,Adversarial
+Which layer type prevents vanishing gradients?,AI&ML,BatchNorm
+Which model generates new synthetic data?,AI&ML,GAN
+Which model translates languages using attention?,AI&ML,Transformer
+Which activation is used in output layer of multi-class classifier?,AI&ML,Softmax
+Which normal form removes transitive dependency?,DBMS,3NF
+Which normal form eliminates multi-valued dependency?,DBMS,4NF
+Which key uniquely identifies a record across all tables?,DBMS,Superkey
+Which join returns only matching rows?,DBMS,InnerJoin
+Which join includes all rows from left table?,DBMS,LeftJoin
+Which join includes all rows from both tables?,DBMS,FullJoin
+Which index type allows duplicate values?,DBMS,NonClustered
+Which language defines database schema?,DBMS,DDL
+Which language manipulates data?,DBMS,DML
+Which constraint ensures a column has unique values?,DBMS,Unique
+Which constraint enforces referential integrity?,DBMS,ForeignKey
+Which command is used to rollback changes?,DBMS,ROLLBACK
+Which command is used to save transaction?,DBMS,COMMIT
+Which keyword is used for pattern matching?,DBMS,LIKE
+Which isolation level avoids dirty read?,DBMS,RepeatableRead
+Which schedule ensures serializability?,DBMS,ConflictSerializable
+Which protocol ensures deadlock prevention?,DBMS,TwoPhaseLocking
+Which algorithm is used for concurrency control?,DBMS,TimestampOrdering
+Which structure stores indexes in database?,DBMS,BTree
+Which structure supports range queries?,DBMS,BPlusTree
+Which operation undoes a transaction?,DBMS,Rollback
+Which keyword is used to remove duplicates?,DBMS,DISTINCT
+Which command changes table structure?,DBMS,ALTER
+Which function returns the number of rows?,DBMS,COUNT
+Which key can accept null values?,DBMS,Foreign
+Which key does not allow null values?,DBMS,Primary
+Which operation retrieves records based on condition?,DBMS,SELECT
+Which function gives current date?,DBMS,NOW
+Which SQL function combines multiple rows?,DBMS,GROUPBY
+Which property ensures atomicity in transactions?,DBMS,Atomicity
+Which property ensures changes are permanent?,DBMS,Durability
+Which form removes partial dependency?,DBMS,2NF
+Which clause groups query results?,DBMS,GROUPBY
+Which data structure helps in implementing recursion?,DSA,Stack
+Which algorithm is used to find all pairs shortest path?,DSA,FloydWarshall
+Which algorithm detects strongly connected components in directed graph?,DSA,Kosaraju
+Which traversal technique is used for depth-first traversal?,DSA,DFS
+What is the complexity of heapify operation?,DSA,O(logn)
+Which tree maintains heap order property?,DSA,Heap
+Which traversal method is used to get sorted output in BST?,DSA,Inorder
+Which data structure is used for implementing LRU cache?,DSA,LinkedHashMap
+Which algorithm uses divide and conquer for sorting?,DSA,MergeSort
+Which algorithm finds shortest path using relaxation?,DSA,BellmanFord
+Which data structure is used in Prim’s algorithm?,DSA,PriorityQueue
+Which graph representation uses adjacency matrix?,DSA,2DArray
+Which traversal method is used to serialize binary tree?,DSA,Preorder
+Which data structure is used for evaluating postfix expression?,DSA,Stack
+Which algorithm solves subset sum problem?,DSA,DynamicProgramming
+Which tree balances using rotations?,DSA,AVL
+Which algorithm detects negative cycles?,DSA,BellmanFord
+Which algorithm is used for minimum spanning tree?,DSA,Kruskal
+Which sorting algorithm is stable and O(nlogn)?,DSA,MergeSort
+Which tree structure is used in range queries?,DSA,SegmentTree
+Which heap type supports delete-min efficiently?,DSA,MinHeap
+Which tree provides logarithmic search time?,DSA,AVL
+Which algorithm solves 0/1 knapsack problem?,DSA,DP
+Which algorithm solves coin change problem?,DSA,DP
+Which algorithm finds articulation points in graph?,DSA,Tarjan
+Which tree is used to store intervals?,DSA,IntervalTree
+Which structure helps detect parent-child relations?,DSA,DisjointSet
+Which algorithm finds shortest path in weighted DAG?,DSA,TopologicalSort
+Which sorting algorithm is non-comparison based?,DSA,CountingSort
+Which sorting algorithm uses gaps between elements?,DSA,ShellSort
+Which data structure efficiently finds median?,DSA,Heap
+Which structure helps implement undo operation?,DSA,Stack
+Which traversal method uses queue?,DSA,BFS
+Which algorithm is used for non-linear regression?,AI&ML,SVR
+Which activation function avoids vanishing gradients?,AI&ML,ReLU
+Which model predicts continuous output?,AI&ML,Regression
+Which algorithm minimizes cost using gradient?,AI&ML,GradientDescent
+Which regularization technique adds L1 penalty?,AI&ML,Lasso
+Which regularization technique adds L2 penalty?,AI&ML,Ridge
+Which optimization technique combines AdaGrad and RMSProp?,AI&ML,Adam
+Which model uses hidden Markov chains?,AI&ML,HMM
+Which algorithm is used in Q-learning?,AI&ML,Bellman
+Which method evaluates model performance on unseen data?,AI&ML,CrossValidation
+Which loss is used for regression?,AI&ML,MSE
+Which algorithm reduces variance using averaging?,AI&ML,Bagging
+Which algorithm increases bias using boosting?,AI&ML,AdaBoost
+Which neural network is used in image recognition?,AI&ML,CNN
+Which algorithm clusters data without labels?,AI&ML,KMeans
+Which model predicts probability distribution?,AI&ML,NaiveBayes
+Which method converts text to numeric vectors?,AI&ML,TFIDF
+Which method is used for feature extraction in NLP?,AI&ML,Embedding
+Which layer type extracts local patterns in images?,AI&ML,Convolutional
+Which algorithm is used in deep reinforcement learning?,AI&ML,DQN
+Which architecture uses encoder-decoder?,AI&ML,Transformer
+Which activation is used for binary classification?,AI&ML,Sigmoid
+Which algorithm reduces dimensionality preserving variance?,AI&ML,PCA
+Which network is prone to exploding gradients?,AI&ML,RNN
+Which algorithm is used for gradient boosting?,AI&ML,XGBoost
+Which method balances dataset classes?,AI&ML,SMOTE
+Which algorithm detects anomalies using isolation?,AI&ML,IsolationForest
+Which regularization helps avoid overfitting?,AI&ML,Dropout
+Which metric measures similarity in clustering?,AI&ML,Silhouette
+Which model handles sequential text data?,AI&ML,LSTM
+Which optimization method uses adaptive rates?,AI&ML,Adam
+Which method selects features by correlation?,AI&ML,Filter
+Which function converts logits to probabilities?,AI&ML,Softmax
+Which property ensures consistency in transactions?,DBMS,Consistency
+Which protocol ensures serializability in schedules?,DBMS,TwoPhaseLocking
+Which index improves query performance?,DBMS,BTree
+Which key uniquely identifies each row?,DBMS,Primary
+Which command removes table from database?,DBMS,DROP
+Which clause filters rows from query?,DBMS,WHERE
+Which clause groups records in SQL?,DBMS,GROUPBY
+Which function returns average value?,DBMS,AVG
+Which function counts total rows?,DBMS,COUNT
+Which key allows NULL values?,DBMS,Foreign
+Which constraint ensures column values are unique?,DBMS,Unique
+Which form eliminates transitive dependency?,DBMS,3NF
+Which operation combines tuples from two relations?,DBMS,Join
+Which join returns unmatched rows too?,DBMS,OuterJoin
+Which index stores data sorted by key?,DBMS,Clustered
+Which command changes existing data?,DBMS,UPDATE
+Which command retrieves data from table?,DBMS,SELECT
+Which constraint ensures referential integrity?,DBMS,ForeignKey
+Which language is used to manipulate data?,DBMS,DML
+Which command undoes last transaction?,DBMS,ROLLBACK
+Which SQL keyword merges results of queries?,DBMS,UNION
+Which structure is used to maintain indexes?,DBMS,BPlusTree
+Which normal form removes multivalued dependency?,DBMS,4NF
+Which constraint prevents null entry?,DBMS,NOTNULL
+Which clause specifies sorting order?,DBMS,ORDERBY
+Which function gives maximum value?,DBMS,MAX
+Which SQL keyword is used for pattern search?,DBMS,LIKE
+Which function gives minimum value?,DBMS,MIN
+Which form eliminates redundancy completely?,DBMS,BCNF
+Which protocol avoids deadlock?,DBMS,WaitDie
+Which isolation level avoids phantom reads?,DBMS,Serializable
+Which command permanently saves changes?,DBMS,COMMIT
+Which SQL function returns sum of values?,DBMS,SUM

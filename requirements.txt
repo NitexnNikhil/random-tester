@@ -1,0 +1,7 @@
+python-dotenv
+livekit
+deepgram-sdk
+google-genai
+silero-vad
+livekit-agents
+dotenv
