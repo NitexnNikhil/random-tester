@@ -1,16 +1,16 @@
 import logging
-from multiprocessing.util import LOGGER_NAME
 from dotenv import load_dotenv
+from typing import AsyncIterable
 
 from livekit import agents
-from livekit.agents import AgentSession, Agent, RoomInputOptions
+from livekit.agents import AgentSession, Agent, RoomInputOptions, JobContext
 from livekit.plugins import noise_cancellation, silero, deepgram, google
 from logging import getLogger
+from livekit.agents import ModelSettings
+from livekit import rtc
 
-logger = logging.getLogger("agents logs")
-
+logger = getLogger("agents logs")
 load_dotenv(".env")
-
 
 class Assistant(Agent):
     def __init__(self) -> None:
@@ -20,16 +20,31 @@ class Assistant(Agent):
             Your responses are concise, to the point, and without any complex formatting or punctuation including emojis or symbols.
             You are curious, friendly, and have a sense of humor."""
         )
-    # async def on_session_started(self, session: AgentSession):
-    #     """
-    #     Triggered AFTER audio tracks are active.
-    #     Safe to speak greeting here.
-    #     """
-    #     print("Session started. Sending greeting...")
-    #     await session.say("Hi Nikhil, how can I help you today...")
+    
+    async def tts_node(
+        self,
+        text: AsyncIterable[str],
+        model_settings: ModelSettings,
+    ) -> AsyncIterable[rtc.AudioFrame]:
+        """
+        Pipeline node: Logs agent response text before TTS synthesis.
+        Delegates to default TTS after logging.
+        """
+        # Log text chunks as they arrive
+        async def log_text_chunks() -> AsyncIterable[str]:
+            async for chunk in text:
+                logger.info(f"🔊 Agent Response: {chunk}")
+                yield chunk
+        
+        # Delegate to default TTS implementation
+        async for frame in Agent.default.tts_node(self, log_text_chunks(), model_settings):
+            yield frame
+    
+    async def on_enter(self) -> None:
+        print("Session started. Sending greeting...")
+        await self.session.say("Hi Nikhil, how can I help you today?")
 
-
-async def entrypoint(ctx: agents.JobContext):
+async def entrypoint(ctx: JobContext):
     session = AgentSession(
         stt=deepgram.STTv2(
             model="flux-general-en",
@@ -51,9 +66,6 @@ async def entrypoint(ctx: agents.JobContext):
             noise_cancellation=noise_cancellation.BVC(),
         ),
     )
-    await session.say("Hi Nikhil How can i help you today...")
-    
-
 
 
 if __name__ == "__main__":
