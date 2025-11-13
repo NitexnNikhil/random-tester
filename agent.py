@@ -109,10 +109,6 @@ class Assistant(Agent):
         logger.info("Session started. Sending greeting...")
         await self.session.say("Hi Nikhil, how can I help you today?")
 
-    @room.local_participant.register_rpc_method("greet")
-    async def handle_greet(data: RpcInvocationData):
-        print(f"Received greeting from {data.caller_identity}: {data.payload}")
-        return f"Hello, {data.caller_identity}!"
 
     
 
